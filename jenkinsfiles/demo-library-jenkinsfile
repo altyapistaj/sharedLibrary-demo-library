@@ -1,0 +1,5 @@
+library identifier: 'sharedLibrary-demo-library@master',retriever: modernSCM([$class: 'GitSCMSource',remote: 'https://github.com/altyapistaj/sharedLibrary-demo-library.git',credentialsId: '85c6a4a3-732d-4212-b0fe-97575eec430a'])
+@Library('sharedLibrary@master') _
+
+parametersDeployToZot()
+pipelineMVNDeployToZot()
