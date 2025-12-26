@@ -2,4 +2,4 @@ library identifier: 'sharedLibrary-demo-library@master',retriever: modernSCM([$c
 @Library('sharedLibrary@master') _
 
 parametersDeployToZot()
-pipelineMVNDeployToZot()
+pipelineMVN()
