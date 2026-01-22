@@ -6,7 +6,7 @@ def call(String JOB_NAME){
             pom : 'pom.xml',
 
 
-            customWorkspace : "workspace/" + JOB_NAME + "/",
+            organizationName : "altyapistaj",
             gitAdressAndName : JOB_NAME.tokenize('/')[1]
     ]
 
