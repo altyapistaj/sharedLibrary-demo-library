@@ -1,5 +1,4 @@
 def call(String JOB_NAME){
-
     return [
             projectName : 'demo-library-test',
             jobName : JOB_NAME.tokenize('/')[1],
